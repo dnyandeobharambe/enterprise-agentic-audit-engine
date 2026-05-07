@@ -1,0 +1,24 @@
+=====================================================
+INFRASTRUCTURE COMPLIANCE POLICY - v2026.04
+=====================================================
+
+1. HARDWARE REQUIREMENTS
+------------------------
+- All active nodes must have a minimum of 16GB RAM.
+- Nodes with 8GB or less are considered "CRITICAL NON-COMPLIANCE."
+
+2. SOFTWARE & FIRMWARE
+----------------------
+- The minimum allowed firmware version is 4.2.
+- Any node running firmware 4.0 or lower must be flagged for immediate update.
+
+3. SITE REDUNDANCY
+------------------
+- Every site must maintain at least 2 active nodes to ensure high availability.
+- Single-node sites are a violation of the redundancy policy.
+
+4. MAINTENANCE STATUS
+---------------------
+- Nodes in 'Maintenance' status are exempt from RAM requirements but must still meet firmware standards before being returned to 'Active' status.
+
+[END OF POLICY]

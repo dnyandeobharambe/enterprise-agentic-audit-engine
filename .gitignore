@@ -1,0 +1,20 @@
+# Python environment
+.venv/
+__pycache__/
+
+# Secrets (CRITICAL)
+.env
+UI_PASSWORD
+
+# Keep the initial database for the demo, but ignore local journals
+*.db-journal
+*.db-wal
+
+# IDEs and Tools
+.vscode/
+.idea/
+.DS_Store
+
+# Logs and Observability
+*.log
+.agentops/

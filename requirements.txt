@@ -1,0 +1,24 @@
+# --- Core AI & Orchestration ---
+google-genai            # The new 2026 stable SDK
+openai                  # Driver for NVIDIA NIM & standard LLM calls
+langgraph               # For stateful multi-agent orchestration
+mcp                     # Model Context Protocol for local resource tools
+fastmcp                 # High-level tool server framework (Add this!)
+langchain-nvidia-ai-endpoints
+
+# --- Observability & Token Metrics ---
+agentops                # Your "Flight Recorder"
+tiktoken                # OpenAI-specific token counting
+tokenizers              # HuggingFace tokenization for local models (Llama/Gemma)
+
+# --- Infrastructure & Environment ---
+python-dotenv           # Environment variable management
+fastapi                 # For the Gateway API
+uvicorn                 # ASGI server to run FastAPI
+streamlit               # For your Auditor Dashboard UI
+slowapi                  # Rate limiting for FastAPI endpoints
+
+# --- Testing & Networking ---
+pytest                  # Basic testing
+pytest-asyncio          # Testing async Agentic loops
+httpx                   # Async HTTP client for tool calling
