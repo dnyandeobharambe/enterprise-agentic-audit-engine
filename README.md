@@ -30,7 +30,7 @@ Given a natural language query like *"Audit the Kirkland site. If non-compliant,
 3. **Compares inventory data** against a central compliance policy file
 4. **Generates a remediation plan** with step-by-step CLI commands if violations are found
 5. **Gates all write operations** behind a human approval click — no automated changes without sign-off
-6. **Records every decision** in AgentOps for a full forensic audit trail
+6. **Records every decision** in AgentOps for a full forensic audit trail.
 
 ---
 
